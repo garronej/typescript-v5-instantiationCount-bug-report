@@ -2,9 +2,6 @@ import { Fzf } from "fzf";
 import memoize from "memoizee";
 import type { SillApi } from "../ports/SillApi";
 import { id } from "tsafe/id";
-import LogoNextCloud from "ui/assets/logo_nextcloud.png";
-import LogoLibreOffice from "ui/assets/logo_libreoffice.png";
-import LogoWordpress from "ui/assets/logo_wordpress.png";
 import { assert } from "tsafe/assert";
 import type { ApiTypes } from "@codegouvfr/sill";
 
@@ -232,7 +229,7 @@ const fzf = new Fzf(options, {
 
 const softwares = [
     id<ApiTypes.Software>({
-        "logoUrl": LogoNextCloud,
+        "logoUrl": "",
         "softwareId": 0,
         "softwareName": "NextCloud",
         "codeRepositoryUrl": "https://github.com/nextcloud/server",
@@ -285,7 +282,7 @@ const softwares = [
         }
     }),
     id<ApiTypes.Software>({
-        "logoUrl": LogoLibreOffice,
+        "logoUrl": "",
         "softwareId": 1,
         "softwareName": "LibreOffice",
         "codeRepositoryUrl": "https://git.libreoffice.org/core",
@@ -337,7 +334,7 @@ const softwares = [
         }
     }),
     id<ApiTypes.Software>({
-        "logoUrl": LogoWordpress,
+        "logoUrl": "",
         "softwareId": 2,
         "softwareName": "Wordpress",
         "codeRepositoryUrl": "https://core.trac.wordpress.org/browser",
@@ -387,7 +384,7 @@ const softwares = [
         }
     }),
     id<ApiTypes.Software>({
-        "logoUrl": LogoLibreOffice,
+        "logoUrl": "",
         "softwareId": 3,
         "softwareName": "VLC",
         "codeRepositoryUrl": "https://code.videolan.org/videolan/vlc",
@@ -434,7 +431,7 @@ const softwares = [
         "userAndReferentCountByOrganization": {}
     }),
     id<ApiTypes.Software>({
-        "logoUrl": LogoLibreOffice,
+        "logoUrl": "",
         "softwareId": 4,
         "softwareName": "Debian",
         "codeRepositoryUrl": "https://sources.debian.org/",
@@ -482,7 +479,7 @@ const softwares = [
         }
     }),
     id<ApiTypes.Software>({
-        "logoUrl": LogoLibreOffice,
+        "logoUrl": "",
         "softwareId": 5,
         "softwareName": "Thunderbird",
         "codeRepositoryUrl": "https://hg.mozilla.org/comm-central",
@@ -543,7 +540,7 @@ const softwares = [
         }
     }),
     id<ApiTypes.Software>({
-        "logoUrl": LogoLibreOffice,
+        "logoUrl": "",
         "softwareId": 6,
         "softwareName": "Qgis",
         "codeRepositoryUrl": "https://github.com/qgis/QGIS",
@@ -589,7 +586,7 @@ const softwares = [
         }
     }),
     id<ApiTypes.Software>({
-        "logoUrl": LogoLibreOffice,
+        "logoUrl": "",
         "softwareId": 7,
         "softwareName": "Mozilla Firefox",
         "codeRepositoryUrl": "https://hg.mozilla.org/mozilla-central/",
@@ -650,7 +647,7 @@ const softwares = [
         }
     }),
     id<ApiTypes.Software>({
-        "logoUrl": LogoLibreOffice,
+        "logoUrl": "",
         "softwareId": 8,
         "softwareName": "PostgreSQL",
         "codeRepositoryUrl": "https://git.postgresql.org/gitweb/?p=postgresql.git",
@@ -694,7 +691,7 @@ const softwares = [
         }
     }),
     id<ApiTypes.Software>({
-        "logoUrl": LogoLibreOffice,
+        "logoUrl": "",
         "softwareId": 9,
         "softwareName": "Peertube",
         "codeRepositoryUrl": "https://github.com/Chocobozzz/PeerTube",
@@ -737,7 +734,7 @@ const softwares = [
         }
     }),
     id<ApiTypes.Software>({
-        "logoUrl": LogoLibreOffice,
+        "logoUrl": "",
         "softwareId": 10,
         "softwareName": "Archifiltre",
         "codeRepositoryUrl": "https://github.com/SocialGouv/archifiltre-docs",
