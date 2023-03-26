@@ -2,5 +2,38 @@
   "name": "typescript",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@codegouvfr/sill": "^0.1.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@storybook/addon-docs": "^6.5.15",
+    "@trpc/client": "^10.18.0",
+    "cra-envs": "^1.2.8",
+    "evt": "^2.4.6",
+    "fzf": "^0.5.1",
+    "jwt-decode": "^3.1.2",
+    "keycloak-js": "^18.0.0",
+    "keycloakify": "^7.0.3",
+    "memoizee": "^0.4.14",
+    "moment": "^2.29.1",
+    "path": "^0.12.7",
+    "powerhooks": "^0.26.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "redux-clean-architecture": "^3.4.1",
+    "run-exclusive": "^2.2.16",
+    "superjson": "^1.12.2",
+    "tsafe": "^1.5.1",
+    "type-route": "^1.0.1",
+    "zod": "^3.21.4",
+    "i18nifty": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/memoizee": "^0.4.4",
+    "@types/node": "^18.15.5",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "minimal-polyfills": "^2.2.2",
+    "node-fetch": "^2.6.1",
+    "typescript": "^4.1.6"
+  }
 }

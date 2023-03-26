@@ -1,5 +1,13 @@
 {
   "compilerOptions": {
-    "target": "esnext"
-  }
+    "target": "esnext",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "core/*": [
+        "./*"
+      ]
+    }
+  },
 }
